@@ -1,0 +1,122 @@
+#video {
+    width: 1900;
+    height: 1000;
+}
+
+#marqueeStyle{
+    background: crimson;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+  
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img{
+    width:400px;
+    height: 300px;
+    text-align: justify-all;
+}
+
+#footer{
+height: 20px;
+background-color:white;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}
+
+.environment_li
+{
+  margin-top: 13px;
+}
+
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img
+{
+  border-radius: 25px;
+  height: 250px;
+}
+
+.environment_li p
+{
+  margin-top:10px;
+}
+
+.header_entrepreneur
+{
+  line-height: 2;
+}
+
+.book
+{
+  cursor: pointer;
+}
+
+.book hr
+{
+  margin-bottom: 10px;
+}
+
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
+
